@@ -30,3 +30,11 @@ ng update @angular/core @angular/cli
 
 // odinstalowanie globalnie CLI
 npm uninstall -g @angular/cli
+
+
+nowa
+
+-Xms1024m
+-Xmx4096m
+-XX:ReservedCodeCacheSize=960m
+-XX:+UseCompressedOops
