@@ -1,12 +1,24 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import type { TestMyModel } from './test-interface-my';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
+  selector: 'gif-root',
+  standalone: true,
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'gift-shop';
+  ble: TestMyModel = { name: 'asd' };
+
+  constructor() {
+    this.myTest(1);
+  }
+
+  public myTest(a: number, _b?: number): number {
+    // const ble = 123;
+    //
+    // const ble2 = 456;
+    // console.log('TES');
+    return a;
+  }
 }
