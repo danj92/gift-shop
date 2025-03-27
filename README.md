@@ -1,5 +1,20 @@
 pm install --save-dev eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-prettier eslint-config-prettier
 
+npm install --save-dev eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser @angular-eslint/eslint-plugin eslint-plugin-prettier eslint-config-prettier
+
+
+.....
+
+npm install --save-dev @angular-eslint/eslint-plugin
+
+
+npm install --save-dev @angular-eslint/template-parser
+
+
+npm install --save-dev prettier-plugin-organize-imports
+
+
+.............
 
 // nadpisanie wszystkich HTML po regulam prittera
 npx prettier --write .
